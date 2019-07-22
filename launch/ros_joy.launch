@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="joy" name="joy_node" type="joy_node" />
+  <node pkg="ros_challenge" name="joy_twist" type="joy_twist" />
+</launch>
